@@ -7,6 +7,10 @@
   src: url("../public/Font/Pacifico-Regular.ttf");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .text-stroke {
   color: transparent;
   font-size: 100px;
@@ -17,4 +21,7 @@
   -webkit-text-stroke: 1px rgb(219, 215, 215);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+.downloadBtn {
 }

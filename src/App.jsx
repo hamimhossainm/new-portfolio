@@ -10,13 +10,15 @@ import Contact from "./Pages/Contact";
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Home />
-      <Services />
-      <Portfolio />
-      <About />
-      <Resume />
-      <Contact />
+      <main>
+        <Navbar />
+        <Home />
+        <Services />
+        <Portfolio />
+        <About />
+        <Resume />
+        <Contact />
+      </main>
     </>
   );
 };
