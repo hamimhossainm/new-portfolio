@@ -56,7 +56,7 @@ const Home = () => {
             </a>
           </div>
           <div className="z-10 ml-[100px] space-x-6 font-Trebuchet text-xl font-bold text-white">
-            <button className="relative rounded-3xl bg-[#040836] px-8 py-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#FF014F] before:transition-transform before:duration-300 before:content-[''] before:hover:scale-x-100">
+            <button className="relative rounded-3xl border-2 bg-[#040836] px-8 py-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#FF014F] before:transition-transform before:duration-300 before:content-[''] hover:border-2 hover:border-[#040836] hover:bg-transparent hover:text-[#040836] hover:shadow-md hover:shadow-[#040836] hover:transition-all hover:duration-300 hover:ease-in-out before:hover:scale-x-100">
               <a
                 className="flex items-center justify-center gap-2"
                 href="../../public/Hamim Hossain Resume.pdf"
