@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <header
       id="home"
-      className="h-cover w-full bg-gradient-to-r from-[#FDF1BF] via-[#E1EBE0] to-[#F4FDFF] pl-[110px]"
+      className="h-cover ml-[102px] box-border w-screen bg-gradient-to-r from-[#FDF1BF] via-[#E1EBE0] to-[#F4FDFF] pl-16"
     >
       <div className="flex">
         <div className="w-[52%]">
