@@ -28,6 +28,27 @@ const projectsData = [
     icon: HiMiniArrowSmallRight,
     image: P3,
   },
+  {
+    id: 4,
+    subTitle: "Webpage",
+    title: "E-Commerce",
+    icon: HiMiniArrowSmallRight,
+    image: P4,
+  },
+  {
+    id: 5,
+    subTitle: "Website",
+    title: "Brand Accesories",
+    icon: HiMiniArrowSmallRight,
+    image: P5,
+  },
+  {
+    id: 6,
+    subTitle: "Website",
+    title: "Gadget & Gears",
+    icon: HiMiniArrowSmallRight,
+    image: P6,
+  },
 ];
 
 export default projectsData;

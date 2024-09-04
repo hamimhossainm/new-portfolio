@@ -12,7 +12,27 @@ export default {
       fontFamily: {
         Trebuchet: ["Trebuchet Ms"],
       },
+      textShadow: {
+        bottom: "0 2px 4px rgba(0, 0, 0, 0.5)",
+      },
+      keyframes: {
+        upDown: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+      },
+      animation: {
+        "up-down": "upDown 3s ease-in-out infinite",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".text-shadow-bottom": {
+          textShadow: "0 2px 4px rgba(0, 0, 0, 0.5)",
+        },
+      });
+    },
+  ],
 };
