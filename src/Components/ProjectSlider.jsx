@@ -22,7 +22,7 @@ const ProjectSlider = () => {
               className={`absolute bottom-0 flex h-24 w-full items-center justify-center bg-white font-Trebuchet transition-all duration-1000 ease-in-out ${
                 hoveredId === item.id
                   ? "translate-y-0 opacity-100"
-                  : "translate-y-full opacity-0"
+                  : "-translate-y-2 opacity-0"
               }`}
             >
               <div className="w-[40%]">
